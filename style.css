@@ -1,0 +1,372 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+p,ul{
+    padding: 0;
+    margin: 0;
+
+}
+
+p{
+    font-size: 15px;
+}
+
+.btn-color {
+    background: linear-gradient(to right, #DF7FFB, #2F2AF5);
+    color: #fff;
+    
+}
+.btn {
+    border-radius: 16px;
+    border: 1px solid #b7b7b7;
+}
+/* Header Css */
+
+header .active{
+    color: blue  !important ;
+}
+
+.header-top{
+    background: #1D1C23;
+    color: #fff;
+}
+
+li.nav-item{
+    margin: 0px 10px;
+}
+
+.main-header-nav a.nav-link {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/*hero section */
+
+.hero-section{
+    background: linear-gradient(to right, #EDECFF, #FFFCF5);
+    padding: 50px 0px;
+}
+
+.hero-content h5 {
+    color:blue;
+}
+.hero-content h1 {
+    font-size: 63px;
+    font-weight: 800;
+}
+
+.starDiv {
+    background: #fafafa;
+    border: 1px solid #cfcfcf;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-size: 16px;
+    text-align: center;
+    width: 118px;
+    height: 100px;
+}
+/* .starDiv img {
+    width: 70px;
+} */
+.star i {
+    font-size: 10px;
+    color: yellow;
+}
+
+/* brand Section */
+
+/* .brand-section img{
+    width: 100%;
+} */
+
+
+.brand-images .col-md-2:nth-child(4) img {
+   width: 100% !important;
+  }
+
+
+  /* about Section */
+
+
+  .about-us-content{}
+  .about-us-content h5{
+    color: #2F2AF5;
+  }
+  .about-us-content h2{
+    font-size: 42px;
+  }
+  .about-us-content p {
+    margin: 10px 0px;
+    line-height: 1.6rem;
+}
+
+
+/* service Section */
+
+.services {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    /* background: red;
+    color: white; */
+    border-radius: 10px;
+    border: 1px solid #9d9d9d;
+}
+
+.service-logo i {
+    background: #040404;
+    font-size: 43px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+
+.services:hover{
+    background: #2F2AF5;
+    color: #fff;
+}
+.services:hover i{
+    background: #ffffff;
+    color: #000000;
+}
+
+.demo-work h2{
+    color: #2F2AF5;
+    margin-left: 20px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+/* team-section */
+.team-content{
+    margin: 10px 0px;
+}
+.team-content p{
+    font-size: 15px;
+    line-height: 1.8rem;
+}
+span.divider {
+    width: 36px;
+
+    background: linear-gradient(to right,#4B3BF6 ,#A170FA);
+    height: 3px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* portfolio */
+
+.protfolio {
+    background: #03060b;
+    color: white;
+    border-radius: 25px;
+    padding: 40px 10px;
+}
+
+
+.project-image {
+    position: relative;
+    margin: 10px 0px;
+}
+
+.project-image img {
+    border-radius: 25px;
+    /* width: 100%; */
+    max-width: 100%;
+    height: 238px;
+}
+
+.project-link a {
+    width: 100px;
+    height: 100px;
+    display: block;
+    background: rgba(5, 5, 255, 0.685);
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 95px;
+    text-decoration: none;
+    position: absolute;
+    top: 86px;
+    left: 29%;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.project-image:hover .project-link a{
+    opacity:1;
+    visibility: visible;
+    pointer-events: painted;
+}
+
+/* planning Section */
+
+.plaing-content{}
+.plaing-content h2{
+    font-size: 28px;
+    font-weight: 700;
+}
+.plaing-content h2 i{
+    font-weight: normal;
+}
+
+.planing-way {
+    border: 1px solid #cdcdcd;
+    border-radius: 10px;
+    padding: 16px;
+}
+.planing-way img{
+    max-width: 100%;
+}
+.planing-way h4{
+    margin-top: 10px;
+}
+.planing-way p{
+    font-size: 14px;
+}
+
+/* testimonial-section */
+
+.testimonial-section{}
+.testimonial-section h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+.testimonial-section h2 i{
+    font-weight: normal;
+}
+
+.testimonial {
+    background: #f3f2f2;
+    text-align: center;
+    padding: 14px;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+.testimonial h5 {
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.testimonial h6 {
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  /* .swiper-slide img {
+    display: block;
+    width: 100%;
+  } */
+
+.testimonial .star i{
+    color: red;
+}
+
+
+/* faq section */
+
+.faq {
+    margin: 20px;
+  }
+  .question {
+    cursor: pointer;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+.question i {
+    display: inline-block;
+    background: red;
+    font-size: 13px;
+    color: wheat;
+    padding: 5px;
+}
+  .answer {
+    display: none;
+  }
+
+.faq-scection h2{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 700;
+}
+.faq-scection h2 i{
+    font-weight: normal;
+}
+
+/* footer */
+
+footer{
+    background: #0b0a28;
+    color: white;
+    padding: 50px 0px 10px;
+}
+
+footer ul{
+    list-style:none;
+    margin-top: 10px;
+}
+footer ul li{
+    margin: 10px 0px;
+    display: block;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+}
+
+.two-button .btn:first-child {
+    background: #302aff;
+    color: white;
+    font-weight: 700;
+    border-radius: 0;
+    display: inline-block;
+
+}
+.two-button .btn:last-child {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    border-radius: 0;
+    display: inline-block;
+    margin-left: -4px;
+
+}
+
+.border-top-1 {
+    border-top: 1px solid white;
+    align-items: center;
+    padding: 10px 0px;
+}
